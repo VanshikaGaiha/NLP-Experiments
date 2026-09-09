@@ -5,7 +5,7 @@
 
 ## Overview
 
-This repository contains the laboratory experiments conducted as part of the **Computational Linguistics & Natural Language Processing (NLP)** course. The experiments cover fundamental concepts in data analysis and natural language preprocessing, providing hands-on experience with commonly used Python libraries and NLP techniques.
+This repository contains the laboratory experiments conducted as part of the **Computational Linguistics & Natural Language Processing (NLP)** course. The experiments cover fundamental concepts in natural language processing, from data analysis to advanced NLP techniques like stemming, lemmatization, term frequency analysis, and named entity recognition.
 
 ## Laboratory Experiments
 
@@ -13,6 +13,8 @@ This repository contains the laboratory experiments conducted as part of the **C
 |---|---|---|
 | 1 | **Data Analysis** | Exploratory data analysis of employee records using **Pandas, Matplotlib, and Seaborn** to analyze demographic characteristics, salary distributions, and other relevant patterns. |
 | 2 | **Basic Text Preprocessing** | Implementation of fundamental NLP preprocessing techniques including **text cleaning, tokenization, and stop-word removal** using **NLTK and spaCy**. |
+| 3 | **Stemming, Lemmatization & Regular Expressions** | Understanding morphological text reduction using **Porter Stemmer** for stemming and **WordNet Lemmatizer** for lemmatization. Extracting structured information (emails, URLs, phone numbers, hashtags, mentions) from text using **Regular Expressions**. |
+| 4 | **Term Frequency & Named Entity Recognition** | Computing term frequency from text documents and performing Named Entity Recognition (NER) using **spaCy**. Includes manual implementation of TF-IDF calculations and comparison with toolkit-based approaches. |
 
 ## Repository Structure
 
@@ -32,6 +34,12 @@ Through these experiments, the repository demonstrates practical understanding o
 - Text cleaning and normalization
 - Tokenization
 - Stop-word removal
+- Stemming and Lemmatization techniques
+- Regular Expression pattern matching
+- Information extraction from text
+- Term Frequency (TF) computation
+- Named Entity Recognition (NER)
+- Term Frequency-Inverse Document Frequency (TF-IDF)
 - Basic NLP preprocessing pipelines
 - Working with NLTK and spaCy
 
@@ -44,3 +52,5 @@ Through these experiments, the repository demonstrates practical understanding o
 - Seaborn
 - NLTK
 - spaCy
+- Regular Expressions (re)
+- CSV processing
